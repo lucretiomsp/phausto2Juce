@@ -9,7 +9,7 @@ dsp export2JuceWithName: 'ZitaVerb' type: #Effect.
 ```
 
 ##How to build the plugin with cmake.
-```c
+```bash
 cmake -B build -DCMAKE_BUILD_TYPE=Release -DJUCE_PATH=/path/to/JUCE
 cmake --build build --config Release -j
 ```
