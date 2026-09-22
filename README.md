@@ -5,7 +5,7 @@ Resources to learn how to export Phausto DSps to JUCE plugins
 ```smalltalk
 dsp := (Wire new => ZitaRevStereo new ) stereo asDsp.
 dsp init.
-dsp export2JuceWithName: 'ZitaVerb' type: #Effect.
+dsp export2JuceWithName: 'ZitaVerb' type: PhEffectType new.
 ```
 
 ##How to build the plugin with cmake.
